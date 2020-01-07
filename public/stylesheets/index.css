@@ -1,0 +1,245 @@
+
+ body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.0625em;
+ }
+
+#fire {
+   color: #84bdb9;
+   font-size: 300%;
+   padding: 10px;
+}
+
+#myNavbar {
+  font-size: large;
+}
+
+#main {
+  background-color: #c9c9c9 !important;
+  opacity: 0.9;
+}
+
+#main a:hover {
+  background-color:transparent !important;
+  color: #84bdb9;
+}
+
+li.active a { 
+  color: #84bdb9 !important;  
+}
+
+
+.navbar-collapse.collapse.in { 
+   display: inline-block; 
+}
+
+
+.myHeader {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/homepagePic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.myHeader h1 {
+  font-size: 5rem;
+  line-height: 6rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.myHeader h2 {
+  padding-top: 30px;
+  max-width: 50rem;
+  font-size: 2rem;
+}
+
+.btn-xl {
+  padding: 10px 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #64a19d;
+  border-color: #64a19d;
+}
+
+.btn-xl:hover {
+  background-color: #307772;
+  border-color: #307772;
+}
+
+@media (min-width: 768px) {
+  .myHeader h1 {
+    font-size: 8rem;
+    line-height: 7rem;
+  }
+  .btn-xl {
+    font-size: 25px;
+  }
+}
+
+.about-section {
+  padding-top: 13rem;
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 90%, rgba(22, 22, 22, 0.8) 100%);
+  text-align: center;
+  color: white;
+}
+
+.about-section h1 {
+  margin-bottom: 6rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-size: 20px;
+}
+
+.weather-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#aboutWeather {
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+
+.weather-section {
+  padding: 10rem 0;
+  padding-bottom: 200px;
+  text-align: center;
+  background: linear-gradient(to top, rgba(100, 161, 157, 0.1) 0%, rgba(100, 161, 157, 0.5)10%, #64a19d 100%);
+}
+
+.weather-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .weather-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.weather-section .card-text {
+  font-size: 1.25rem;
+}
+
+.weather-section i {
+  font-size: 300%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .weather-section .card-text {
+    font-size: 2rem;
+  }
+
+}
+
+.custom {
+  box-shadow: 3px 3px 23px -3px rgba(77,77,77,1);
+  background-color: slategray;
+  border-radius: 10px;
+}
+
+.signup-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.signup-section .form-inline input {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.contact-section {
+  padding: 5rem 0 0;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+}
+
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-section .social a:active {
+  color: #fff;
+}
+
+a {
+  color: #64a19d;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #3c6360;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #64a19d !important;
+}
+
+.text-primary {
+  color: #64a19d !important;
+}
+
+footer {
+  padding: 5rem 0;
+}

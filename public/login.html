@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Sunrunr</title>
+
+<!-- Import jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- Import Google Icon Font -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <!-- Bootstrap core CSS -->
+  <script src="https://kit.fontawesome.com/7e5dadacec.js" crossorigin="anonymous"></script>
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="stylesheets/register.css" rel="stylesheet">
+
+  <!-- Custom scripts for this template -->
+  <script src="javascripts/signin.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" id="top">
+
+  <!-- Nav Bar -->
+
+  <nav class="navbar navbar-expand-md transparent navbar-light bg-light fixed-top" id="main">
+      <a href="#top"><i class="fa fa-fire" id="fire"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        </ul>
+      </div>
+  </nav>   
+
+  <!-- Header -->
+  <header class="myHeader">
+
+        <div class="row">
+                <div class="col s12 m6">
+                  <div class="card blue-grey mx-auto">
+                    <div class="card-content white-text" style="width: 100%">
+                      <span class="card-title">Sign in</span>
+                      <div class="input-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" >
+                      </div>
+                        <div class="input-field">
+                          <label for="password">Password</label>
+                          <input type="password" id="password" name="password" >
+                        </div>
+                        <div class="card-action">
+                          <div><button id="signin" class="waves-effect waves-light btn">Sign in</button></div>
+                          <div id="account" style="width: 100%; background-color: transparent">Need an account? <a href="register.html">Register</a></div>
+                        </div>
+                    </div>
+                    <div class="card-panel blue-text" id="ServerResponse" style="display: none"></div>
+                  </div>
+                </div>
+    </header>
+
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Sofka&Brubaker 2019
+    </div>
+  </footer>
+
+</body>
+
+</html>

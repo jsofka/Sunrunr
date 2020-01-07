@@ -1,0 +1,136 @@
+
+
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.0625em;
+       }
+      
+      #fire {
+         color: #84bdb9;
+         font-size: 300%;
+         padding: 10px;
+      }
+      
+      #myNavbar {
+        font-size: large;
+      }
+      
+      
+      #main, #account{
+        background-color: #c9c9c9 !important;
+        opacity: 0.9;
+      }
+
+      #account {
+        width: 60vw;
+      }
+
+      
+      #main a:hover {
+        background-color:transparent !important;
+        color: #84bdb9;
+      }
+      
+      li.active a { 
+        color: #84bdb9 !important;  
+      }
+      
+      
+      .navbar-collapse.collapse.in { 
+         display: inline-block; 
+      }
+      
+      .myHeader {
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-height: 35rem;
+        padding: 15rem 0;
+        background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/homepagePic.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+      }
+      
+      .myHeader h1 {
+        font-size: 5rem;
+        line-height: 6rem;
+        letter-spacing: 0.8rem;
+        background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+      }
+      
+      .myHeader h2 {
+        padding-top: 30px;
+        max-width: 50rem;
+        font-size: 2rem;
+      }
+
+      .card {
+          align-items: center;
+          width: 40vw;
+          background: rgb(90,163,158);
+            background: linear-gradient(180deg, rgba(90,163,158,0.3) 0%, rgba(132,189,185,0.3) 35%, rgba(174,242,237,0.3) 100%);
+            opacity: 0.9;
+            box-shadow: -5px 2px 55px -18px rgba(77,77,77,1);
+        }
+
+
+        @media (min-width: 768px){
+            .card {
+                width: 320px;
+            }
+          }
+
+          @media (max-width: 476px){
+            .card {
+                width: 175px;
+            }
+          }
+        
+          .btn {
+              background-color: rgb(90,163,158);
+          }
+
+      
+      footer {
+        padding: 5rem 0;
+        background-color: black;
+      }
+      
+      #lightbox {
+        display: none;
+        position:fixed; /* keeps the lightbox window in the current viewport */
+        top:30%; 
+        left:0; 
+        width:100%; 
+        height:100%; 
+        text-align:center;
+        opacity: 1;
+      }
+
+      #lightbox p {
+        text-align:right; 
+        color:#fff; 
+        margin-right:20px; 
+        font-size:12px; 
+    }
+    #close {
+      margin: 10px;
+    }
+
+    input[type="radio"] {
+      opacity: 1 !important;
+      margin: 10px;
+    }
+
+    [type="radio"]:not(:checked)+span:before, [type="radio"]:not(:checked)+span:after{
+      border: none;
+    }
+    [type="radio"]:checked+span:before, [type="radio"]:checked+span:after{
+      border: none;
+      background-color: transparent;
+    }
